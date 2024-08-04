@@ -31,4 +31,4 @@ operation = st.selectbox("Select operation", ('Add', 'Subtract', 'Multiply', 'Di
 # Button to perform calculation
 if st.button("Calculate"):
     result = calculate(num1, num2, operation)
-    st.success(f"The result is: {result}")
+    st.success(f"The result of {operation} operation is: {result}")
