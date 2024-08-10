@@ -1,3 +1,6 @@
+#install streamlit using pip install streamlit
+#upgrade using pip install --upgrade streamlit
+#Add directory to PATH vairable
 import streamlit as st
 
 # Function to perform the basic calculations
